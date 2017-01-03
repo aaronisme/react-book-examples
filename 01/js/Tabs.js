@@ -19,7 +19,7 @@ class Tabs extends Component {
 
   static defaultProps = {
     classPrefix: 'tabs',
-    onChange: () => {},
+    onChange: (data) => {console.log(data)},
   };
 
   constructor(props) {
